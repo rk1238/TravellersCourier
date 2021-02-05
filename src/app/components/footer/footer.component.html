@@ -1,0 +1,18 @@
+<div>
+<ion-tab-bar slot="bottom">
+    <ion-tab-button tab="home" (click)="TabBtnClick('itemdetail')">
+      <ion-icon name="home"></ion-icon>
+      <ion-label>Home</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="person" (click)="TabBtnClick('useradditemslist')">
+      <ion-icon name="people-circle-outline"></ion-icon>
+      <ion-label>Main list</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="call" (click)="TabBtnClick('selecteditems')">
+      <ion-icon name="person-circle-outline"></ion-icon>
+      <ion-label>Selected list</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</div>
